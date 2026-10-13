@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "GravityPostbackGravityEngine"
-  spec.version      = "1.0.4"
+  spec.version      = ".0.5"
   spec.summary      = "用于用户行为分析和广告效果归因的一站式SDK。"
   spec.description  = <<-DESC
   引力引擎 SDK 支持代码埋点以及全埋点（无埋点）两种埋点方式来收集广告主App内的各种事件，进而完成广告效果归因和用户行为分析，助力广告主准确做出商业决策。
@@ -22,7 +22,6 @@ Pod::Spec.new do |spec|
   spec.swift_version = "5.0"
   spec.dependency 'GravityEngineSDK'
   spec.dependency 'GravityPostback'
-  spec.dependency 'UIUtilities'
   spec.vendored_frameworks = "GravityPostbackGravityEngine.xcframework"
   spec.libraries = "c++"
   spec.requires_arc  = true
